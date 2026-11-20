@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShowKey</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><div class="brand"><img src="icon48.png" alt="" width="28" height="28"><h1>ShowKey</h1></div><span id="source">Browser tab</span></header>
+<main>
+  <h2 id="song">Current song</h2>
+  <section class="controls" aria-label="Transpose this song">
+    <div class="keys">
+      <label>Recording key<select id="root"><option value="">By ear</option></select></label>
+      <span class="arrow" aria-hidden="true">→</span>
+      <label>Show key<select id="target" disabled><option value="">By ear</option></select></label>
+    </div>
+    <div class="dial">
+      <button id="down" class="step" aria-label="Lower by one half step">−</button>
+      <div class="readout"><output id="shift">0</output><span>half steps</span></div>
+      <button id="up" class="step" aria-label="Raise by one half step">+</button>
+    </div>
+    <div class="transport"><button id="toggle" class="primary">Start live audio</button><button id="reset" class="secondary">Reset pitch</button></div>
+  </section>
+  <p id="status" role="status">Opening controls…</p>
+  <section class="setlist" aria-labelledby="setlist-title">
+    <div class="list-head"><h2 id="setlist-title">Your setlist</h2><button id="save" class="text-button">+ Save song</button></div>
+    <p id="empty">Your saved songs and show keys appear here.</p><ul id="songs"></ul>
+  </section>
+</main><script type="module" src="popup.js"></script></body></html>
