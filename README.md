@@ -1,54 +1,156 @@
-# ShowKey
+# ShowKey by Kaprrrr Studios
 
-by Kaprrrr Studios
+Play a recording in the key you use onstage while the song keeps its original tempo.
+ShowKey runs in **Google Chrome on a Windows PC or Mac** (Chrome 116 or newer).
+If you need Chrome, [download Google Chrome for your computer](https://www.google.com/chrome/).
 
-ShowKey shifts the sound from a browser tab while the video keeps its original timing.
+**[Download ShowKey-Chrome.zip](https://github.com/Kaprrrr/ShowKey/releases/latest/download/ShowKey-Chrome.zip)**
 
-**[Download ShowKey for Chrome](https://github.com/Kaprrrr/ShowKey/releases/latest/download/ShowKey-Chrome.zip)** · [Release notes](https://github.com/Kaprrrr/ShowKey/releases/latest)
+Jump to **[Windows](#install-on-windows)** · **[Mac](#install-on-mac)** · **[Play your first song](#play-your-first-song)**.
+If someone sent you the ZIP, you can start at step 2 for your computer.
+If you’ve already extracted it and see **START-HERE.txt** beside **manifest.json**, start at step 4.
+If ShowKey is already installed, use **[Update a copy you already installed](#update-a-copy-you-already-installed)**.
 
-## Try the GitHub release in desktop Chrome
+The ZIP contains a folder’s worth of files. You’ll unpack them, put them somewhere permanent, then tell Chrome where to find them.
+For a keyboard shortcut such as **Ctrl+C**, hold the first key, tap the second key, then release both.
+Inside the download, **START-HERE.txt** contains these same directions and opens in Notepad on Windows or TextEdit on Mac.
 
-The ZIP is a free, manually installed build for people testing ShowKey.
-Extract it into a folder you plan to keep.
+## Install on Windows
 
-1. Open `chrome://extensions` in desktop Chrome 116 or later.
-2. Turn on **Developer mode**, click **Load unpacked**, and choose the extracted folder containing `manifest.json`.
-3. Open Chrome’s Extensions menu and pin **ShowKey**.
+1. **Download the ZIP.** Click **Download ShowKey-Chrome.zip** above.
+   If you’re on the GitHub release page instead, scroll to **Assets** and click **ShowKey-Chrome.zip**.
+   If Chrome asks where to save it, choose **Downloads** and click **Save**.
 
-## Rehearse a song
+2. **Find it on your PC.** Hold the **Windows logo key** and press **E** to open File Explorer.
+   Click **Downloads** on the left, or open the location where you saved the file.
+   Look for **ShowKey-Chrome.zip**. Windows may display it as **ShowKey-Chrome** with a zipper on the folder icon.
 
-1. Play the recording on YouTube and open ShowKey.
-2. Choose the **Recording key** and **Show key**.
-   If you don’t know the recording's key, use the **−** and **+** controls by ear.
-3. Click **Start live audio**.
-   You can change the shift while the video plays and close the popup while practicing.
-4. Click **Save song** to remember the recording and its settings.
-   Open a saved song from **Your setlist**, play it, and start live audio on its tab.
-5. Click **Stop live audio** to restore normal playback.
+3. **Unzip it.** Right-click that zipped folder and choose **Extract All…**.
+   Leave the suggested destination in place and click **Extract**.
+   You should now have a regular folder called **ShowKey-Chrome** as well as the original ZIP.
+   If the regular folder is already open and you can see **START-HERE.txt** inside, you’ve completed this step.
 
-The key menus use root notes.
-A minor to G minor and A major to G major both use a shift of minus two half steps.
-The menus choose the shortest shift.
-The step controls cover an octave in either direction.
-To update a test installation, replace its files with those from the new release, then click **Reload** for ShowKey in Chrome’s extensions page.
-When the active YouTube tab moves to a different video, it uses that song’s saved tuning or zero.
+4. **Keep the regular folder in Documents.** In File Explorer, go back to **Downloads** (or your chosen download location).
+   Click the **regular ShowKey-Chrome folder** once and press **Ctrl+C** to copy it.
+   Click **Documents** on the left and press **Ctrl+V** to paste it there.
+   Open the new **ShowKey-Chrome** folder in Documents. You should see **START-HERE.txt** and a file called **manifest.json** (sometimes shown as **manifest**).
+   Chrome will use this folder every time you practice, so leave it in Documents.
 
-## Other web players
+5. **Open Chrome’s extensions page.** Open **Google Chrome** from the Start menu or your taskbar.
+   Click the address bar at the very top, type **chrome://extensions**, and press **Enter**.
+   You should see a page titled **Extensions**.
 
-YouTube playback and Apple Music song previews worked in our desktop Chrome tests.
-To try a full Apple Music song, sign in at [music.apple.com](https://music.apple.com) in desktop Chrome, play a track in that tab, then click **Start live audio** in ShowKey.
-The native Apple Music app plays outside the tab.
-Full Apple Music subscription tracks remain unverified.
-The signed-out Spotify web player produced no audible output in testing.
-For web players, select the browser as the playback device.
-If a protected stream goes silent, **Stop live audio** returns playback to the site.
-Open an individual song page to save a track link.
+6. **Show the installation button.** Find **Developer mode** near the upper-right corner of that page.
+   Click its switch to turn it on. A button called **Load unpacked** appears near the upper left.
+   This setting lets Chrome open the folder you just copied.
 
-## Audio and storage
+7. **Choose the ShowKey folder.** Click **Load unpacked**. In the window that opens, click **Documents** on the left.
+   Click **ShowKey-Chrome** once, then click **Select Folder**.
+   If you already opened the folder in this window, click **Select Folder** while you are inside it.
+   Chrome’s folder picker may hide the individual files; that’s normal.
 
-ShowKey processes one tab locally and stores saved links, titles, and tunings in your browser profile.
+8. **Find ShowKey in Chrome.** Look for a **ShowKey** card on the Extensions page. That means it’s installed.
+   Click the **puzzle-piece icon** near the top-right corner of Chrome, beside the address bar.
+   Find **ShowKey** in that menu and click the **pin** beside it.
+   Its green icon will now stay beside the address bar. Continue to **Play your first song** below.
+
+[Microsoft’s guide to unzipping files](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
+
+## Install on Mac
+
+1. **Download the ZIP.** Click **Download ShowKey-Chrome.zip** above.
+   On the GitHub release page, you can also scroll to **Assets** and click **ShowKey-Chrome.zip**.
+   If your browser asks where to save it, choose **Downloads**.
+
+2. **Find it in Finder.** Click the **Finder** icon (the blue smiling face) in the Dock.
+   Click **Downloads** in the left sidebar. If you don’t see Downloads, choose **Go** from the menu bar at the very top of the screen, then **Downloads**.
+   If you saved the ZIP somewhere else, open that location.
+
+3. **Unzip it.** Double-click **ShowKey-Chrome.zip**. A regular folder called **ShowKey-Chrome** should appear beside it.
+   Some browsers unzip files automatically. If you already see a regular folder with **START-HERE.txt** inside, use that folder.
+
+4. **Keep the regular folder in Documents.** Click the **ShowKey-Chrome** folder once and press **Command (⌘) + C**.
+   Click **Documents** in the Finder sidebar, or choose **Go** and then **Documents** from the menu bar.
+   Press **Command (⌘) + V** to paste the folder there.
+   Double-click the new folder and look for **START-HERE.txt** and **manifest.json** (Finder may hide the filename endings).
+   Leave this folder in Documents so Chrome can find it the next time you practice.
+
+5. **Open Google Chrome.** Press **Command (⌘) + Space**, type **Google Chrome**, and press **Return**.
+   In Chrome, click the address bar at the very top, type **chrome://extensions**, and press **Return**.
+   You should see Chrome’s **Extensions** page. This ZIP is for desktop Chrome; Safari, iPhone, and iPad use different extensions.
+
+6. **Show the installation button.** Find the **Developer mode** switch near the upper right of the Extensions page and turn it on.
+   Click **Load unpacked** near the upper left. A window opens so you can choose a folder.
+
+7. **Choose the ShowKey folder.** Click **Documents** on the left side of the window.
+   Click the **ShowKey-Chrome** folder once, then click **Select** or **Open** at the bottom right.
+   If you already opened the folder, click **Select** or **Open** while you’re inside it. Chrome will read the files inside it.
+
+8. **Find ShowKey in Chrome.** A **ShowKey** card should now appear on the Extensions page.
+   Click the **puzzle-piece icon** beside Chrome’s address bar, find **ShowKey**, and click its **pin**.
+   Look for the green ShowKey icon beside the address bar. You’re ready to try a song.
+
+[Apple’s guide to unzipping files on Mac](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac)
+
+## What a successful installation looks like
+
+On Chrome’s Extensions page, **Developer mode** is on, **Load unpacked** is visible, and **ShowKey** has its own card.
+The example below shows the Windows test installation. [Chrome’s guide to loading an unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
+
+![Chrome Extensions page with Developer mode on, Load unpacked visible, and the ShowKey card](guide/chrome-extensions.png)
+
+## Play your first song
+
+1. Open a new Chrome tab, go to YouTube, open a song’s video, and press **Play**.
+   Keep that tab selected so ShowKey knows which sound to change.
+2. Click the green **ShowKey** icon beside the address bar.
+   You should see **ShowKey** with **by Kaprrrr Studios** underneath and the title of your video.
+3. Under **Recording key**, choose the key you hear on the record. Under **Show key**, choose the key you play in.
+   For example, if the recording is in **A** and your band plays it in **G**, choose **A** and **G**. The display should read **−2 half steps**.
+4. Click **Start live audio** and play along. Listen for the lower key at the same tempo.
+   If you don’t know the recording’s key, leave **Recording key** on **By ear**, click **Start live audio**, and tap **−** or **+** until the recording matches your guitar.
+   Each tap changes the sound by one fret’s worth of pitch.
+5. Click **+ Save song** to remember this recording and key. You can close the popup and keep playing.
+   Next rehearsal, open the song from **Your setlist**, play it, then open ShowKey in that tab and click **Start live audio**.
+6. To hear the original recording again, click **Stop live audio**. To end playback, pause the song on its own page.
+
+![ShowKey set to move a recording from A to G by two half steps](guide/showkey-popup.png)
+
+## If something looks different
+
+- **I see “Source code (zip)” on GitHub.** Choose the asset named **ShowKey-Chrome.zip** for the packaged extension and the plain-text guide.
+- **Chrome says it can’t find the manifest.** Open the folder in File Explorer or Finder. Look for **manifest.json** beside **START-HERE.txt**.
+  If you see another **ShowKey-Chrome** folder inside, open that inner folder.
+  Go back to **Load unpacked** and choose the folder that directly contains those files.
+- **I can’t see “Load unpacked.”** Check that you typed **chrome://extensions** in Google Chrome’s address bar and turned on **Developer mode**.
+  On a work or school computer, the administrator may control this setting.
+- **I installed it, but the green icon is missing.** Click Chrome’s puzzle-piece icon to find **ShowKey** and pin it.
+  If the puzzle piece is hidden, widen the Chrome window. You can also check the ShowKey card at **chrome://extensions** to see whether it’s enabled.
+- **I want to use Apple Music.** Open [Apple Music in Chrome](https://music.apple.com), sign in if needed, and play the track in that tab.
+  ShowKey processes sound from the selected browser tab. A song playing in the separate Music app or on another device plays outside that tab.
+  Our Windows tests confirmed YouTube playback and Apple Music web previews. Full Apple Music subscription tracks and Mac playback remain unverified.
+  The signed-out Spotify web player produced no audible output in testing.
+  If a track goes silent after you start ShowKey, click **Stop live audio** to restore ordinary playback.
+- **“Save song” is grey.** Open the individual song or video page. ShowKey uses that page’s link to find your recording next time.
+
+## Update a copy you already installed
+
+1. Download the latest **ShowKey-Chrome.zip** and unzip it in Downloads.
+2. Open the new regular folder. Select the files **inside**, including the **vendor** folder, and copy them.
+3. Open the folder you originally selected with **Load unpacked**. Paste the copied files there.
+   If your computer asks about files with the same names, choose **Replace**. Keeping the same folder lets Chrome recognize your existing installation.
+4. Open **chrome://extensions**. On the **ShowKey** card, click the circular arrow labeled **Reload**.
+   Open ShowKey again on a playing music tab.
+
+## About ShowKey
+
+The **−** and **+** buttons cover one octave in either direction.
+The key menus use the shortest shift between two notes. A major to G major and A minor to G minor both use **−2**.
+When a live YouTube tab moves to another video, ShowKey recalls its saved shift or starts at zero.
 Pitch processing adds a short delay to the sound.
-The pitch engine is [Signalsmith Stretch 1.3.2](https://github.com/Signalsmith-Audio/signalsmith-stretch).
-The bundled module and third-party license notices are in `vendor/`.
 
-[Privacy policy](https://github.com/Kaprrrr/ShowKey/blob/main/PRIVACY.md) · [Report an issue](https://github.com/Kaprrrr/ShowKey/issues)
+ShowKey processes the tab’s audio on your computer. It saves song links, titles, and tuning settings in your Chrome profile.
+It uses [Signalsmith Stretch 1.3.2](https://github.com/Signalsmith-Audio/signalsmith-stretch) for pitch shifting.
+The **vendor** folder contains the audio engine and its license notices.
+
+[Privacy policy](https://github.com/Kaprrrr/ShowKey/blob/main/PRIVACY.md) · [Report a problem](https://github.com/Kaprrrr/ShowKey/issues) · [Release notes](https://github.com/Kaprrrr/ShowKey/releases/latest)
