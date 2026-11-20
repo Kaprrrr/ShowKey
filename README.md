@@ -1,5 +1,7 @@
 # ShowKey
 
+by Kaprrrr Studios
+
 ShowKey shifts the sound from a browser tab while the video keeps its original timing.
 
 **[Download ShowKey for Chrome](https://github.com/Kaprrrr/ShowKey/releases/latest/download/ShowKey-Chrome.zip)** · [Release notes](https://github.com/Kaprrrr/ShowKey/releases/latest)

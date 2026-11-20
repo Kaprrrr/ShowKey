@@ -1,6 +1,6 @@
 # ShowKey privacy policy
 
-Effective November 20, 2026. This policy covers the ShowKey Chrome extension published by Kaprrrr.
+Effective November 20, 2026. This policy covers the ShowKey Chrome extension published by Kaprrrr Studios.
 
 ## Live audio
 

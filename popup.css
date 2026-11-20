@@ -3,7 +3,8 @@
 body { margin: 0; width: 350px; }
 header, .brand, .list-head, .transport, .dial, .keys { display: flex; align-items: center; }
 header { justify-content: space-between; padding: 15px 19px; border-bottom: 1px solid #344041; }
-.brand { gap: 8px; }
+.brand { gap: 9px; }
+.byline { margin: 2px 0 0; font-size: 11px; line-height: 1.2; color: #bfeda3; }
 h1, h2, p { margin: 0; }
 h1 { font-size: 19px; letter-spacing: -.7px; }
 #source, #status, #empty, .readout span { color: #adbab7; font-size: 12px; }
